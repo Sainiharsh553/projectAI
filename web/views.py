@@ -4,7 +4,7 @@ import numpy as np
 
 
 def index(request):
-    model = pickle.load(open("d://logic", "rb"))
+    model = pickle.load(open("logic", "rb"))
     if request.method == 'POST':
 
         k = request.POST.get('input1')
